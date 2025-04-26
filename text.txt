@@ -1,1 +1,9 @@
-print("hello world)
+def is_prime(num):
+    val=0
+    for i in range(2,num):
+        if num%i==0 :
+            print(str(num)+" is not prime")
+            val=1
+            break
+    if (val==0):
+        print(str(num)+"is prime")
